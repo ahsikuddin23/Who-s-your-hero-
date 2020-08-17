@@ -6,7 +6,7 @@ Who's your hero?
 
 ## Project Description
 
-A web page where the user will be able to select a random superhero and recieve background info about the hero such as which comic they are from, which league they are in, alliases, enemies, powers, etc. When the user selects the hero, the heros information and picture will be displayed. The user can compare upto 4 heros.
+A web page where the user will be able to select a random superhero and recieve background info about the hero such as which comic they are from, which league they are in, alliases, and etc. When the user selects the hero, the heros information and picture will be displayed. The user can compare upto 4 heros.
 
 ## API and Data Sample
 
@@ -61,7 +61,9 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 ```
 ## Wireframes
 
-[Whos your hero?] Desktop(https://wireframe.cc/3qgNPo) Mobile (https://imgur.com/Uo1VzLc)
+[Whos your hero?] Desktop(https://wireframe.cc/3qgNPo) 
+
+Mobile (https://wireframe.cc/7mFavv)
 
 
 ### MVP/PostMVP
