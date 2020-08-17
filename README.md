@@ -6,7 +6,7 @@ Who's your hero?
 
 ## Project Description
 
-A web page where the user will be able to select a random superhero and recieve background info about the hero such as which comic they are from, which league they are in, alliases, enemies, powers, etc. When the user selects the hero, the heros information and picture will be displayed. 
+A web page where the user will be able to select a random superhero and recieve background info about the hero such as which comic they are from, which league they are in, alliases, enemies, powers, etc. When the user selects the hero, the heros information and picture will be displayed. The user can compare upto 4 heros.
 
 ## API and Data Sample
 
