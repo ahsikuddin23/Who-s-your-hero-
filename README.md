@@ -11,14 +11,8 @@ A web page where the user will be able to select a random superhero and recieve 
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
-"error": "OK",
-    "limit": 1,
-    "offset": 0,
-    "number_of_page_results": 1,
-    "number_of_total_results": 1,
-    "status_code": 1,
-    "results": {
+```
+"results": {
         "aliases": null,
         "api_detail_url": "https://comicvine.gamespot.com/api/power/4035-51/",
         "characters": [
@@ -34,26 +28,63 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
                 "name": "Electrocute",
                 "site_detail_url": "https://comicvine.gamespot.com/electrocute/4005-1296/"
             },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1310/",
+                "id": 1310,
+                "name": "Generator X",
+                "site_detail_url": "https://comicvine.gamespot.com/generator-x/4005-1310/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1411/",
+                "id": 1411,
+                "name": "Commander Power",
+                "site_detail_url": "https://comicvine.gamespot.com/commander-power/4005-1411/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1441/",
+                "id": 1441,
+                "name": "Magneto",
+                "site_detail_url": "https://comicvine.gamespot.com/magneto/4005-1441/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1444/",
+                "id": 1444,
+                "name": "Storm",
+                "site_detail_url": "https://comicvine.gamespot.com/storm/4005-1444/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-1453/",
+                "id": 1453,
+                "name": "Spider-Woman",
+                "site_detail_url": "https://comicvine.gamespot.com/spider-woman/4005-1453/"
+            },
+```
 ## Wireframes
 
-[Whos your hero?] (https://wireframe.cc/WSoKyU)
+[Whos your hero?] Desktop(https://wireframe.cc/3qgNPo) Mobile (https://imgur.com/Uo1VzLc)
+
 
 ### MVP/PostMVP
 
 #### MVP 
-Built with HTML, CSS, and JavaScript.
-Styled using Flexbox or Grid.
-Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
-Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc). That means two views total.
-Deployed site to a hosting service like Github Pages.
-Make commits to GitHub every day.
+
+• Implement dynamic HTML, CSS, and Javascript/Vanilla Javascript
+
+• Use flexbox/grid styling
+
+• Request external data sources using Axios
+
+• Implement media queries for mobile, tablet, and desktops
+
 
 #### PostMVP  
 
 
-Add creative use of event listeners and UI interaction.
-Add media queries for responsive design.
-Add animations.
+•	Add event listeners
+
+•	Add animations
+
+
 
 ## Project Schedule
 
@@ -72,7 +103,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-https://imgur.com/Adrod8d
+https://imgur.com/Uo1VzLc
 
 ## Timeframes
 
@@ -80,16 +111,13 @@ https://imgur.com/Adrod8d
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Proposal | H | 2hrs|  |  |
-| HTML| H | 3hrs|  |  |
-| CSS| H | 4hrs| |  |
-| Javascript| H | 5hrs|  |  |
-| Async| H | 4hrs|  |  |
-| Dom | H | 5hrs|  |  |
-| API| H | 4 hrs| |  |
-| Testing| H | 5hrs| |  |
-| Total | H | 32 hrs|  |  |
-
+| HTML | H | 4 hrs|  |  |
+| CSS | H | 5hrs| |  |
+| Javascript | H | 6hrs| |  |
+| DOM| H | 6 hrs| |  |
+| API| H | 6 hrs| |  |
+| Testing | H | 6 hrs| |  |
+| Total | H | 33 hrs| | |
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
