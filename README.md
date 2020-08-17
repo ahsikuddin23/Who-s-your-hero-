@@ -80,15 +80,15 @@ https://imgur.com/Adrod8d
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Proposal | H | 2hrs| 1.5hrs | 3.5hrs |
-| HTML| H | 3hrs| 2.5hrs | 2.5hrs |
-| CSS| H | 4hrs| 3.5hrs | 2.5hrs |
-| Javascript| H | 5hrs| 4.5hrs | 2.5hrs |
-| Async| H | 4hrs| 3.5hrs | 2.5hrs |
-| Dom | H | 5hrs| 4.5hrs | 2.5hrs |
-| API| H | 4 hrs| 3.5hrs | 2.5hrs |
-| Testing| H | 5hrs| 4.5hrs | 2.5hrs |
-| Total | H | 32 hrs| 28hrs | 5hrs |
+| Proposal | H | 2hrs|  |  |
+| HTML| H | 3hrs|  |  |
+| CSS| H | 4hrs| |  |
+| Javascript| H | 5hrs|  |  |
+| Async| H | 4hrs|  |  |
+| Dom | H | 5hrs|  |  |
+| API| H | 4 hrs| |  |
+| Testing| H | 5hrs| |  |
+| Total | H | 32 hrs|  |  |
 
 ## Code Snippet
 
