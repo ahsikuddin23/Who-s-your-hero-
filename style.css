@@ -1,0 +1,64 @@
+body { 
+background-size: cover;
+background-repeat: no-repeat;
+text-align-last: center;
+font-size: 22px;
+font-family: "pokemon", monospace;
+color: rgb(62, 62, 207);
+margin: 2px;
+height: 100vh
+}
+.ball {
+align-self: flex-end;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+margin: 0 auto 0 auto;
+height: 50px;
+width: 50px;
+transform-origin: bottom;
+        
+  animation-name: ball;
+  animation-timing-function: linear;
+}
+@keyframes ball {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+/* .flex-container {
+display: flex;
+flex-direction: row;
+} */
+button {
+  border-radius: 8px;
+  
+  
+}
+.select-pokemon {
+  border-radius: 8px;
+  padding: 5px 12px;
+
+}
+
+
+@media (max-width: 600px) {
+  body {
+  background-size: cover;
+  display: flexbox;
+  background-repeat: no-repeat;
+  text-align-last: center;
+  font-size: 10px;
+  font-family: "pokemon", monospace;
+  color: rgb(62, 62, 207);
+  /* width: 100%; */
+  height: 100vh;
+}
+
+
+
+
+
+
