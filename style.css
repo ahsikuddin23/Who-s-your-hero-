@@ -5,8 +5,9 @@ text-align-last: center;
 font-size: 22px;
 font-family: "pokemon", monospace;
 color: rgb(62, 62, 207);
-margin: 2px;
-height: 100vh
+margin: 2px auto;
+height: 100vh;
+width: 90vh;
 }
 .weight {
   text-justify: auto;
