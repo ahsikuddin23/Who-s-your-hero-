@@ -8,21 +8,30 @@ color: rgb(62, 62, 207);
 margin: 2px;
 height: 100vh
 }
+.weight {
+  text-justify: auto;
+}
+#sprite {
+  height: 20vh;
+  justify-content: center;
+  
+}
+
 .ball {
 align-self: flex-end;
 animation-duration: 2s;
 animation-iteration-count: infinite;
+animation-play-state: running;
 margin: 0 auto 0 auto;
-height: 50px;
-width: 50px;
+height: 40px;
+width: 40px;
 transform-origin: bottom;
-        
-  animation-name: ball;
-  animation-timing-function: linear;
+animation-name: ball;
+animation-timing-function: linear;
 }
 @keyframes ball {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-30px); }
+  50%  { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
 
@@ -62,3 +71,4 @@ button {
 
 
 
+}
