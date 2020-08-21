@@ -6,7 +6,7 @@ Who's that Pokemon?
 
 ## Project Description
 
-A web page where the user will be able to select a random Pokemon and recieve background info about the Pokemon such as its type, attack, defense,HP level, etc. When the user selects the Pokemon, the Pokemon's information and picture will be displayed. The user can compare upto 4 Pokemon.
+A web page where the user will be able to select a random Pokemon and recieve background info about the Pokemon such as its type, attack, defense,HP level, etc. When the user selects the Pokemon, the Pokemon's information and picture will be displayed. 
 
 ## API and Data Sample
 
@@ -167,8 +167,6 @@ Mobile (https://wireframe.cc/7mFavv)
 
 • Implement dynamic HTML, CSS, and Javascript/Vanilla Javascript
 
-• Use flexbox/grid styling
-
 • Request external data sources using Axios
 
 • Implement media queries for mobile, tablet, and desktops
@@ -185,11 +183,11 @@ Mobile (https://wireframe.cc/7mFavv)
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 17| Project Approval | Incomplete
-|August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 19| Initial Clickable Model  | Incomplete
-|August 20| MVP | Incomplete
+|August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 17| Project Approval | Complete
+|August 18| Core Application Structure (HTML, CSS, etc.) | Complete
+|August 19| Initial Clickable Model  | Complete
+|August 20| MVP | Complete
 |August 21| Presentations | Incomplete
 
 ## Priority Matrix
@@ -202,22 +200,88 @@ https://imgur.com/Uo1VzLc
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | H | 4 hrs|  |  |
-| CSS | H | 5hrs| |  |
-| Javascript | H | 6hrs| |  |
-| DOM| H | 6 hrs| |  |
-| API| H | 6 hrs| |  |
-| Testing | H | 6 hrs| |  |
-| Total | H | 33 hrs| | |
+| HTML | H | 4 hrs| 4hrs | 4hrs  |
+| CSS | H | 5hrs|4hrs | 3.5hrs |
+| Javascript | H | 6hrs| 6hrs | 8hrs |
+| DOM| H | 6 hrs|6 hrs | 6.5 hrs |
+| API| H | 6 hrs| 6 hrs|  6hrs|
+| Testing | H | 6 hrs| 6hrs|7hrs  |
+| Total | H | 33 hrs|32 hrs |35 hrs |
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+for (let stat of selectedPokemon.stats) {
+    let stats = document.createElement("ul");
+    
+
+    stats.innerText = ` ${stat.stat.name}: ${stat.base_stat} ` ;
+    pokeStats.appendChild(stats);
+    let statsUppercase = stats.toUpperCase;
+  }
 ```
+This function allows me to pull that stats of the pokemon from API. I used a for loop before but found a 'for of loop' was easier to use.
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Use this section to document what changes were made and the reasoning behind those changes.
+ 
+
+``` 
+ Old code:
+//   for (let i = 0; i < 3; i++) {
+
+//     let randomPokemon = Math.floor(Math.random() * pokeData.length) 
+
+New Code:  for (let i = 0; i < 1; i++) {
+      const randomPokemon = Math.floor(Math.random() * 500)
+
+Reasoning: I changed the interger to 500 because pokeData.length only gave me a selection of 20 Pokemon.
+
+
+
+Old code:
+
+//   pokemonHeightDiv.append(results2.data.height)
+//   let ph = document.getElementById("height")
+//   let phText = document.createTextNode(' inches ')
+//   ph.appendChild(phText)
+
+New Code: pokemonHeightDiv.innerText = `Height: ${selectedPokemon.height} inches`;
+
+
+
+
+Old Code:
+//   pokemonWeightDiv.append(results2.data.weight)
+//   let pw = document.getElementById('weight')
+//   let text = document.createTextNode(" lbs ")
+//   pw.appendChild(text);
+
+
+New Code:  pokemonWeightDiv.innerText = `Weight: ${selectedPokemon.weight} lbs`;
+
+Old Code:
+
+//   for (let i = 1; i < 2; i++) {
+
+//     pokeStats.append(results2.data.stats[i].base_stat)
+//     console.log(results2.data.stats[i].base_stat)
+//   }
+//   for (let i = 2; i < 3; i++) {
+//     pokeDefense.append(results2.data.stats[i].base_stat)
+//     console.log(results2.data.stats[i].base_stat)
+//   }
+New Code:
+for (let stat of selectedPokemon.stats) {
+    let stats = document.createElement("ul");
+    
+
+    stats.innerText = ` ${stat.stat.name}: ${stat.base_stat} ` ;
+    pokeStats.appendChild(stats);
+    let statsUppercase = stats.toUpperCase;
+
+
+Reasoning: Clean coding
+```
+
