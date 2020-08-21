@@ -10,8 +10,8 @@ A web page where the user will be able to select a random Pokemon and recieve ba
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-https://pokeapi.co/api/v2/pokemon/butterfree
+The API for this project was pulled from The RESTful Pokémon API. https://pokeapi.co/
+
 ```
 https://pokeapi.co/api/v2/pokemon/butterfree
 {
