@@ -25,7 +25,7 @@ const displayPokemon = (index) => {
   pokemonHeightDiv.innerText = `Height: ${selectedPokemon.height} inches`;
   pokemonWeightDiv.innerText = `Weight: ${selectedPokemon.weight} lbs`;
   
- // For of loop: 
+ // For of loop: Fetch stats/type(s), DOM created
   for (let stat of selectedPokemon.stats) {
     let stats = document.createElement("ul");
     
@@ -51,11 +51,12 @@ const displayPokemon = (index) => {
 
 
   
-//Async Function
+//Async Function 
+// Empty array because the fetched data will be stored in it.
   const getPokemon = async () => {
     ;
     let pokemon = [];
-    // Generate pokemon. The 
+    // Generate pokemon. 
     for (let i = 0; i < 1; i++) {
       const randomPokemon = Math.floor(Math.random() * 500)
       try {
@@ -69,6 +70,7 @@ const displayPokemon = (index) => {
   
     scopePokemon = pokemon;
     // Index in which the pokemons data is stored in the scope pokemon array. Paramater must be less than or equal to the for loop above.
+    //Call back
     displayPokemon(0);
   };
 
@@ -80,4 +82,5 @@ btn.addEventListener("click", () => {
   });
 
 
+  
 
